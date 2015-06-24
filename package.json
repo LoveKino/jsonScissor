@@ -10,11 +10,18 @@
     "mocha": "*"
   },
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LoveKino/jsonScissor.git"
+  },
   "keywords": [
     "json",
     "scissor",
     "json simplify"
   ],
-  "author": "ddchen",
-  "license": "ISC"
+  "license": "MIT",
+  "author": {
+    "name": "ddchen",
+    "email": "842914439@qq.com"
+  }
 }
