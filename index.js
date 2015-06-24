@@ -1,1 +1,1 @@
-module.exports = require("../lib/jsonScissor.js");
+module.exports = require("./lib/jsonScissor.js");

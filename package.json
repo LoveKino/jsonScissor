@@ -1,6 +1,6 @@
 {
-  "name": "jsonScissor",
-  "version": "1.0.0",
+  "name": "json-scissor",
+  "version": "1.0.1",
   "description": "json scissor",
   "directories": {
     "test": "test"
