@@ -1,0 +1,20 @@
+{
+  "name": "jsonScissor",
+  "version": "1.0.0",
+  "description": "json scissor",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {},
+  "keywords": [
+    "json",
+    "scissor",
+    "json simplify"
+  ],
+  "author": "ddchen",
+  "license": "ISC"
+}
