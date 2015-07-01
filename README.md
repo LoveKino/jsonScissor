@@ -1,6 +1,6 @@
 json-scissor
 ===================================  
-json scissor tool
+Json scissor tool, it's simple and useful.
 
 What json-scissor can do?
 -----------------------------------
@@ -100,4 +100,17 @@ And result is what we want,
 	}
 }
 ```
+json-scissor interface
+-----------------------------------
+### clip
+```
+clip : function(sourceJson, tarSample, config){}
+```
+#### sourceJson 
+  the json you want to "cut".
+#### tarSample 
+  the sample you want to get.
+#### config
+  * maxDeepth<br>
+  define the max deepth of cutting. Starting with 1, if set means do not cut, if do not set value means cut to the deepest. 
 
