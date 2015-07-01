@@ -6,6 +6,7 @@ What json-scissor can do?
 -----------------------------------
 
 There is a json, looked like:
+`
 {
 	"name": "ddchen",
 	"experience": [{
@@ -20,5 +21,6 @@ There is a json, looked like:
 		"skilled": ["js", "front-end", "node", "mvc", "template engine", "etc"]
 	}
 }
+`
 but, I think attributes like "time", "level" is useless, I want to "cut them" from the original json.
 So, json-scissor can help you with that task.
