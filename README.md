@@ -1,4 +1,5 @@
-# jsonScissor
+json-scissor
+===================================  
 json scissor tool
 
 ## what json-scissor can do?
