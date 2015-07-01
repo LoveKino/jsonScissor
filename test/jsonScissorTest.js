@@ -1,5 +1,5 @@
 var assert = require("assert");
-var jsonScissor = require("../../../../library/tools/jsonScissor.js");
+var jsonScissor = require("../lib/jsonScissor.js");
 
 describe('jsonScissor', function() {
 	describe('#clip()', function() {
