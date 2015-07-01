@@ -81,6 +81,10 @@ var tarSample = {
 	}
 }
 ```
+Notice that, for target json sample:
+* the attributes you do not want is missing.
+* we don't care about attribute's value in json sample.
+
 ### call interface
 ```
 var result = jsonScissor.clip(sourceJson, tarSample);
@@ -109,7 +113,7 @@ clip : function(sourceJson, tarSample, config){}
 #### sourceJson 
   the json you want to "cut".
 #### tarSample 
-  the sample you want to get.
+  the sample of target json you want to get.
 #### config
   * maxDeepth<br>
   define the max deepth of cutting. Starting with 1, if set means do not cut, if do not set value means cut to the deepest. 
