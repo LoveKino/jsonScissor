@@ -4,8 +4,8 @@ json scissor tool
 ## what json-scissor can do?
 
 There is a json, looked like:
-{
-	"name": "ddchen",
+*{
+*	"name": "ddchen",
 	"experience": [{
 		"name": "scair",
 		"time": "2013-2014"
