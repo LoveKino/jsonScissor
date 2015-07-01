@@ -2,7 +2,8 @@ json-scissor
 ===================================  
 json scissor tool
 
-## what json-scissor can do?
+What json-scissor can do?
+-----------------------------------
 
 There is a json, looked like:
 {
