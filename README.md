@@ -8,7 +8,7 @@ What can json-scissor do?
 There is a json, looked like:
 ```
 {
-	"name": "ddchen",
+	"name": "Tom",
 	"experience": [{
 		"name": "scair",
 		"time": "2013-2014"
@@ -28,7 +28,7 @@ So, json-scissor can help you with that task.
 By using json-scissor, we can get target json, looked like:
 ```
 {
-	"name": "ddchen",
+	"name": "Tom",
 	"experience": [{
 		"name": "scair"
 	}, {
@@ -51,7 +51,7 @@ var jsonScissor = require("json-scissor");
 And we got a source json
 ```
 var sourceJson = {
-	"name": "ddchen",
+	"name": "Tom",
 	"experience": [{
 		"name": "scair",
 		"time": "2013-2014"
@@ -93,7 +93,7 @@ var result = jsonScissor.clip(sourceJson, tarSample);
 And result is what we want,
 ```
 {
-	"name": "ddchen",
+	"name": "Tom",
 	"experience": [{
 		"name": "scair"
 	}, {
