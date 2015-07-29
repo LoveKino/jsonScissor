@@ -1,7 +1,7 @@
 {
   "name": "json-scissor",
   "version": "1.0.2",
-  "description": "json scissor",
+  "description": "Simple and useful json scissor tool.",
   "directories": {
     "test": "test"
   },
